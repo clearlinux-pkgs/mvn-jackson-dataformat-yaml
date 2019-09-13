@@ -4,7 +4,7 @@
 #
 Name     : mvn-jackson-dataformat-yaml
 Version  : 2.8.6
-Release  : 4
+Release  : 5
 URL      : https://github.com/FasterXML/jackson-dataformat-yaml/archive/jackson-dataformat-yaml-2.8.6.tar.gz
 Source0  : https://github.com/FasterXML/jackson-dataformat-yaml/archive/jackson-dataformat-yaml-2.8.6.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.6/jackson-dataformat-yaml-2.6.6.jar
@@ -22,6 +22,8 @@ Group    : Development/Tools
 License  : Apache-2.0
 Requires: mvn-jackson-dataformat-yaml-data = %{version}-%{release}
 Requires: mvn-jackson-dataformat-yaml-license = %{version}-%{release}
+BuildRequires : apache-maven
+BuildRequires : buildreq-mvn
 
 %description
 # Overview
